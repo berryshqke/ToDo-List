@@ -5,10 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ToDo List</title>
 </head>
+<!-- The todo list -->
 <body>
     <h1>ToDo List</h1>
     <div id = "items"></div>
+    <!-- input are of the task name -->
     <input id="itemInput" type="text" placeholder="Add a task">
+    <!-- input of the priority of the task -->
+    <select name="priority" id="priority">
+        <option value="low">low priority</option>\
+        <option value="medium">medium priority</option>\
+        <option value="high">high priority</option>\
+    </select>
+    <!-- button to add the task to the list -->
     <button onclick="addItem()">Add Task</button>
     <script src= "index.js"></script>
 </body>
